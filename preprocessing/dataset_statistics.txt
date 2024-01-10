@@ -1,0 +1,105 @@
+dataset name and split
+average num sentences, num docs
+
+lt_lcc-corefud-train
+16.625 80
+ca_ancora-corefud-train
+10.522255192878339 1011
+de_parcorfull-corefud-train
+30.466666666666665 15
+en_parcorfull-corefud-train
+30.466666666666665 15
+cs_pcedt-corefud-train
+21.243733333333335 1875
+de_potsdamcc-corefud-train
+12.795774647887324 142
+ru_rucor-corefud-train
+48.751724137931035 145
+es_ancora-corefud-train
+10.496296296296297 1080
+pl_pcc-corefud-train
+19.63226247436774 1463
+hu_korkor-corefud-train
+14.289473684210526 76
+no_bokmaalnarc-corefud-train
+46.024647887323944 284
+hu_szegedkoref-corefud-train
+22.30625 320
+tr_itcc-corefud-train
+185.89473684210526 19
+en_gum-corefud-train
+56.609271523178805 151
+cs_pdt-corefud-train
+15.288195815238847 2533
+fr_democrat-corefud-train
+207.64 50
+no_nynorsknarc-corefud-train
+30.714285714285715 336
+lt_lcc-corefud-dev
+21.3 10
+ca_ancora-corefud-dev
+11.01526717557252 131
+de_parcorfull-corefud-dev
+24.0 2
+en_parcorfull-corefud-dev
+24.0 2
+cs_pcedt-corefud-dev
+20.652818991097924 337
+de_potsdamcc-corefud-dev
+12.705882352941176 17
+ru_rucor-corefud-dev
+71.44444444444444 18
+es_ancora-corefud-dev
+10.435114503816793 131
+pl_pcc-corefud-dev
+19.524590163934427 183
+hu_korkor-corefud-dev
+14.444444444444445 9
+no_bokmaalnarc-corefud-dev
+42.483870967741936 31
+hu_szegedkoref-corefud-dev
+21.15 40
+tr_itcc-corefud-dev
+278.0 2
+en_gum-corefud-dev
+50.77272727272727 22
+cs_pdt-corefud-dev
+16.544303797468356 316
+fr_democrat-corefud-dev
+25.91304347826087 46
+no_nynorsknarc-corefud-dev
+41.357142857142854 28
+de_potsdamcc-corefud-test
+12.058823529411764 17
+de_parcorfull-corefud-test
+19.0 2
+fr_democrat-corefud-test
+49.43333333333333 30
+pl_pcc-corefud-test
+19.664835164835164 182
+ru_rucor-corefud-test
+37.77777777777778 18
+hu_korkor-corefud-test
+15.0 9
+lt_lcc-corefud-test
+17.1 10
+en_gum-corefud-test
+49.81818181818182 22
+no_nynorsknarc-corefud-test
+33.43333333333333 30
+hu_szegedkoref-corefud-test
+20.9 40
+no_bokmaalnarc-corefud-test
+43.67741935483871 31
+es_ancora-corefud-test
+10.041379310344828 145
+ca_ancora-corefud-test
+9.820512820512821 156
+en_parcorfull-corefud-test
+19.0 2
+cs_pdt-corefud-test
+17.325949367088608 316
+cs_pcedt-corefud-test
+24.16 100
+tr_itcc-corefud-test
+215.0 3
