@@ -1,0 +1,13 @@
+crac:
+  name: "CRAC 2023 - Shared Task CorefUD 1.1"
+  cluster_threshold: 1
+  canonical_cluster_threshold: 1
+  targeted_eval: False
+  num_train_docs: 9595
+  num_dev_docs: 1325
+  num_test_docs: 1113
+  # OntoNotes specific attributes
+  use_genre_feature: True  # Whether to use document genre as a feature or not
+  default_genre: "en"
+  genres: [ "ca", "cs", "en", "fr", "de", "hu", "lt", "no", "pl", "ru", "es", "tr"]
+# singleton_file: null  # File path with pseudo-singletons

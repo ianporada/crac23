@@ -1,0 +1,5 @@
+name: 'mt5'
+model_size: 'xl'
+model_str: 'google/mt5-xl'
+max_encoder_segment_len: 1024
+max_segment_len: 1024

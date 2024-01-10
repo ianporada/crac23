@@ -1,0 +1,11 @@
+defaults:
+  - litbank
+  - wsc
+  - gap
+  - character_identification
+  - wikicoref
+  - quizbowl
+  - ontonotes
+  - preco
+  - crac
+

@@ -1,0 +1,5 @@
+name: 'xlmroberta'
+model_size: 'large'
+model_str: 'xlm-roberta-large'
+max_encoder_segment_len: 512
+max_segment_len: 512

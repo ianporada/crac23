@@ -1,0 +1,25 @@
+# @package _global_
+
+# Vanilla preco configuration
+
+# Model name in CRAC 2021: longdoc PC
+
+defaults:
+  - override /datasets: crac
+  - override /trainer: train.yaml
+  - override /model: model.yaml
+  - override /model/doc_encoder/transformer: mt5_large
+
+trainer:
+  log_frequency: 500
+  max_evals: 20
+  patience: 10
+  eval_per_k_steps: 2500
+
+datasets:
+  crac:
+    num_train_docs: null
+
+model:
+  doc_encoder:
+    add_speaker_tokens: True
