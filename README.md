@@ -1,10 +1,36 @@
 # crac23
 CRAC 2023 Shared Task on Multilingual Coreference Resolution
 
+Code for the McGill shared task submission. The code is currently undocumented, but please create an issue in this repo if you would like any clarifications.
+
+See more details in the paper description at:
+```
+@inproceedings{porada-cheung-2023-mcgill,
+    title = "{M}c{G}ill at {CRAC} 2023: Multilingual Generalization of Entity-Ranking Coreference Resolution Models",
+    author = "Porada, Ian  and
+      Cheung, Jackie Chi Kit",
+    editor = "{\v{Z}}abokrtsk{\'y}, Zden{\v{e}}k  and
+      Ogrodniczuk, Maciej",
+    booktitle = "Proceedings of the CRAC 2023 Shared Task on Multilingual Coreference Resolution",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.crac-sharedtask.5",
+    doi = "10.18653/v1/2023.crac-sharedtask.5",
+    pages = "52--57",
+    abstract = "Our submission to the CRAC 2023 shared task, described herein, is an adapted entity-ranking model jointly trained on all 17 datasets spanning 12 languages. Our model outperforms the shared task baselines by a difference in F1 score of +8.47, achieving an ultimate F1 score of 65.43 and fourth place in the shared task. We explore design decisions related to data preprocessing, the pretrained encoder, and data mixing.",
+}
+```
+
 ## Details
 
 * Shared task: https://ufal.mff.cuni.cz/corefud/crac23
 * Baseline system: https://github.com/ondfa/coref-multiling
+
+## Model
+
+Model code is based on https://github.com/shtoshni/fast-coref
 
 ## Data
 Train/Dev:
